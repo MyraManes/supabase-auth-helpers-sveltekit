@@ -1,4 +1,4 @@
-export async function post({ locals }: { locals: App.Locals }) {
+export async function POST({ locals }: { locals: App.Locals }) {
     const { user, accessToken, error } = locals;
     return {
         status: 200,

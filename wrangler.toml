@@ -6,9 +6,11 @@ site.bucket = "./.cloudflare/public"
 
 build.command = "npm run build"
 
-compatibility_date = "2022-07-07"
+compatibility_date = "2022-07-26"
 workers_dev = true
 
 [vars]
 VITE_SUPABASE_URL = "https://my-supabase-url.supabase.co"
 VITE_SUPABASE_ANON_KEY = "my-supabase-jwt"
+
+send_metrics = false
